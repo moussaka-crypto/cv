@@ -9,7 +9,7 @@ import { Education } from "./components/Education";
 import { Header } from "./components/Header";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
-import { Summary } from "./components/Summary";
+//import { Summary } from "./components/Summary";
 import { WorkExperience } from "./components/WorkExperience";
 
 export const metadata: Metadata = {
@@ -90,11 +90,11 @@ export default function ResumePage() {
           </SectionErrorBoundary>
 
           <div className="space-y-8 print:space-y-4">
-            <SectionErrorBoundary sectionName="Summary">
+            {/* <SectionErrorBoundary sectionName="Summary">
               <Suspense fallback={<SectionSkeleton lines={2} />}>
                 <Summary summary={RESUME_DATA.summary} />
               </Suspense>
-            </SectionErrorBoundary>
+            </SectionErrorBoundary> */}
 
             <SectionErrorBoundary sectionName="Education">
               <Suspense fallback={<SectionSkeleton lines={3} />}>

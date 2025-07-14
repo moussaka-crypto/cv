@@ -3,8 +3,8 @@ import type { ResumeData } from "@/lib/types";
 export const RESUME_DATA: ResumeData = {
   name: "Hristomir Dimov",
   initials: "HD",
-  location: "Burgas, Bulgaria, EEST",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "Burgas, Bulgaria",
+  locationLink: "https://www.google.com/maps/place/Burgas",
   about: "",
   summary: (
     <>
@@ -12,26 +12,21 @@ export const RESUME_DATA: ResumeData = {
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  //personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "hrissdimov8@gmail.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/moussaka-crypto",
         icon: "github",
       },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
-      },
+      // {
+      //   name: "LinkedIn",
+      //   url: "https://www.linkedin.com/in/bjarocki/",
+      //   icon: "linkedin",
+      // },
     ],
   },
   education: [
@@ -47,7 +42,7 @@ export const RESUME_DATA: ResumeData = {
       company: "Friedrich Lütze GmbH",
       link: "https://www.luetze.com/company/friedrich-luetze-gmbh",
       badges: ["C/C++", "Python", "JavaScript", "Unit Testing"],
-      title: "Intern",
+      title: "Software Development Intern",
       start: "March 2024",
       end: "August 2024",
       description: (
@@ -59,56 +54,50 @@ export const RESUME_DATA: ResumeData = {
     }
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Python",
+    "C/C++",
+    "Make",
+    "Java",
+    "JavaScript",
+    "AWS",
+    "Docker",
+    "Terraform",
+    "SQL",
+    "Jupyter",
+    "Tableau"
+
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "UDP-Client-Server",
+      techStack: ["C++", "Winsock", "UDP"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A multithreaded UDP client-server system in C++ using Winsock, enabling asynchronous message exchange and real-time communication simulation.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "UDP Client/Server",
+        href: "https://github.com/moussaka-crypto/UDP-Client-Server",
       },
     },
     {
-      title: "Consultly",
+      title: "Doppelganger",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "Python",
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "A Python script to scan duplicate copies in a given directory. This tool compares not only file names, but also file hashes to ensure no false search results.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Doppelganger",
+        href: "https://github.com/moussaka-crypto/Doppelganger",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Bank",
+      techStack: ["Java", "JUnit", "JavaFX", "SceneBuilder"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "A universal banking software demo project with a simple GUI in JavaFX with the goal to simulate the core operations of a banking system in Java.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "Bank",
+        href: "https://github.com/moussaka-crypto/Bank",
       },
     },
   ],
