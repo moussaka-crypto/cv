@@ -1,16 +1,12 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
-
 # Minimalist CV
+A clean and modern web app that renders a minimalist CV/Resume with a print-friendly layout.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![pnpm](https://img.shields.io/badge/pnpm-8+-F69220?logo=pnpm)](https://pnpm.io/)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-A clean and modern web app that renders a minimalist CV/Resume with a print-friendly layout.
 
 ## ✨ Features
 
@@ -175,13 +171,7 @@ Contributions are welcome! Feel free to:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
-
+- Made with ❤️ by <a href="https://github.com/BartoszJarocki">Bartosz Jarocki</a>
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
 - [Vercel](https://vercel.com/) for hosting and deployment
 - All contributors who have helped improve this project
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/BartoszJarocki">Bartosz Jarocki</a>
-</p>
