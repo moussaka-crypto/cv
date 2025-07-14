@@ -11,8 +11,8 @@ export const RESUME_DATA: ResumeData = {
       nsh napishi za sebe si ddz
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  //personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "",
+  personalWebsiteUrl: "",
   contact: {
     email: "hrissdimov8@gmail.com",
     tel: "",
